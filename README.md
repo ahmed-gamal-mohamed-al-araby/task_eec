@@ -1,3 +1,27 @@
+
+
+
+1: Download The Project
+2: composer install 
+3: composer dump-autoload
+4: php artisan key:generate
+5: php artisan cache:clear
+6: php artisan config:cache
+7: create new database and enter the name of database in file .env  (DB_DATABASE)
+8: add KEY_API in file .env = asdewqzxcvfr 
+9: php artisan config:cache
+10: php artisan migrate --seed
+11: php artisan serve
+
+Login Admin ::
+email: test@test.com
+password: 123456
+
+Api postman to check route 
+1: linkpoject/posts                            ex: http://127.0.0.1:8000/posts 
+2: linkpoject/shipment                         ex: http://127.0.0.1:8000/shipment => add in header (key) and value = asdewqzxcvfr to acccess this route
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
