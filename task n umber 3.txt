@@ -1,4 +1,6 @@
-            $count = 0;
+ function count_minimum_operations($num)
+        {       
+     $count = 0;
             $steps = [$num];
             $data = [];
             while ($num > 0)
