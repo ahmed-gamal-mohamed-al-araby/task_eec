@@ -1,0 +1,23 @@
+            $count = 0;
+            $steps = [$num];
+            $data = [];
+            while ($num > 0)
+            {
+                if ($num % 2 == 0)
+                    $num /= 2;
+                else
+                    $num--;
+
+                $steps[]= $num;
+                $count++;
+            }
+
+            $data['steps'] = $steps;
+            $data['count'] = $count;
+            return $data;
+        }
+
+        $n = 4;
+        $answer = count_minimum_operations($n);
+
+        return implode($answer['steps'],',') .  '  =>  ' .$answer['count'];
