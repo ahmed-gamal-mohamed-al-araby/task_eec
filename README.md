@@ -14,6 +14,10 @@
 11: php artisan migrate --seed
 12: php artisan serve
 
+    <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
+
 Login Admin ::
 email: test@test.com
 password: 123456
